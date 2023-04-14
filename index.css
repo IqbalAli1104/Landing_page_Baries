@@ -1,0 +1,98 @@
+body {
+  background-color: #10B253;
+  margin: 0px;
+}
+nav {
+  position: sticky ; 
+  background-color: #D7FFE3;
+  display: flex;
+  padding: 0px 80px;
+  justify-content: flex-end;
+  box-shadow: 0px 2px 10px;
+  
+}
+nav ul {
+  display: flex;
+}
+.nav-item {
+  padding: 10px 30px;
+  list-style-type:none;
+}
+.nav-item a {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin: 100px;
+}
+.banner-detail {
+  color: white;
+  margin-right: 50px;
+  padding-top: 30px;
+}
+.banner-detail h1{
+  margin: 5px;
+  font-size: 40px;
+}
+.banner-detail p{
+  margin: 5px;
+  font-size: 20px;
+}
+#button {
+  background-color: white;
+  border-radius: 5%;
+  color: #048853;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight:bolder;
+}
+.banner-image img{
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+}
+.form{
+  background-color: #D7FFE3;
+}
+form{
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.checkbox {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+form button {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+}
+form input{
+  margin-top: 16px;
+  padding: 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #048853;
+  padding: 0px 80px;
+}
+footer img {
+  width: 80px;
+}
